@@ -26,6 +26,13 @@ AGENT → 8 tools → registry candidates → schema validation
 
 `sovereign-agent` `mcp` `tool-registry` `julia` `gdscript` `openssl` `agda` `rust` `agent-runtime` `sealed-registry`
 
+
+## Video
+
+[![What Is MCP? How AI Agents Use Tools](https://img.youtube.com/vi/kqkb-pm0FYA/0.jpg)](https://www.youtube.com/watch?v=kqkb-pm0FYA)
+
+*Background on the Model Context Protocol that this runtime implements as a stdio MCP server.*
+
 ## The eight tools
 
 | Tool | What it does |
