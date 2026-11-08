@@ -284,7 +284,7 @@ fn op_spec(op: &str) -> Option<(&'static str, &'static str, &'static [&'static s
         "tensor.reduce" => ("julia", "compute", &["data", "reduce_op"]),
         "tensor.broadcast" => ("julia", "compute", &["a", "b", "broadcast_op"]),
         "crypto.hash" => ("crypto", "crypto", &["algorithm"]),
-        "crypto.hmac" => ("crypto", "crypto", &["key"]),
+        "crypto.hmac" => ("crypto", "crypto", &[] as &[&str]),
         "crypto.encrypt" => ("crypto", "crypto", &["key_hex"]),
         "crypto.decrypt" => ("crypto", "crypto", &["key_hex", "iv_hex", "ciphertext_hex", "tag_hex"]),
         "crypto.sign" => ("crypto", "crypto", &["seed_hex"]),

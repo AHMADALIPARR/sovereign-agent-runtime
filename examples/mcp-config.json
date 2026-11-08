@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "sovereign-agent-runtime": {
+      "command": "/path/to/sovereign-agent-runtime/target/release/sat-runtime",
+      "args": [],
+      "env": {
+        "SAT_REGISTRY": "/path/to/tool-discovery-engine/registry",
+        "SAT_JULIA": "/path/to/julia",
+        "SAT_GODOT": "/path/to/Godot_v4.3-stable_linux.x86_64",
+        "SAT_CRYPTO": "/path/to/sovereign-agent-runtime/cryptool",
+        "SAT_POLICY": "/path/to/sovereign-agent-runtime/policy.json",
+        "SAT_TIMEOUT_SECS": "30"
+      }
+    }
+  }
+}
