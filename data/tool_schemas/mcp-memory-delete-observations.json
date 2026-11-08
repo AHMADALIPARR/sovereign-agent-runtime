@@ -1,0 +1,1 @@
+{"provider":"MCP Memory","tool_name":"delete_observations","source_url":"https://github.com/modelcontextprotocol/servers/blob/main/src/memory/index.ts","required":["deletions"],"input_schema":{"deletions":{"required":true,"type":"array"}}}

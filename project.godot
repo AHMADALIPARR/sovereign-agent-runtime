@@ -1,0 +1,5 @@
+; Godot project marker for headless backend scripts.
+config_version=5
+
+[application]
+config/name="Sovereign Agent Runtime"

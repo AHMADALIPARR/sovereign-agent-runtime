@@ -1,0 +1,8 @@
+{"jsonrpc":"2.0","id":1,"method":"initialize","params":{"protocolVersion":"2024-11-05"}}
+{"jsonrpc":"2.0","id":2,"method":"tools/call","params":{"name":"graph_execute","arguments":{"nodes":[{"id":"m1","op":"matrix.multiply","args":{"a":[[1,2],[3,4]],"b":[[5,6],[7,8]]}},{"id":"det","op":"matrix.determinant","args":{"a":{"$node":"m1"}}}],"edges":[["m1","det"]]}}}
+{"jsonrpc":"2.0","id":3,"method":"tools/call","params":{"name":"tool_execute","arguments":{"provider":"runtime","name":"matrix.determinant","arguments":{"a":[[1,2],[3,4]]}}}}
+{"jsonrpc":"2.0","id":4,"method":"tools/call","params":{"name":"tool_execute","arguments":{"provider":"Playwright MCP","name":"browser_navigate","arguments":{"url":"https://example.com"}}}}
+{"jsonrpc":"2.0","id":5,"method":"tools/call","params":{"name":"tool_execute","arguments":{"provider":"Nobody","name":"no_such_tool","arguments":{}}}}
+{"jsonrpc":"2.0","id":6,"method":"tools/call","params":{"name":"compute_execute","arguments":{"operation":"matrix.multiply","args":{"a":[[1,2]]}}}}
+{"jsonrpc":"2.0","id":7,"method":"tools/call","params":{"name":"compute_execute","arguments":{"operation":"matrix.frobnicate","args":{}}}}
+{"jsonrpc":"2.0","id":8,"method":"tools/call","params":{"name":"registry_status","arguments":{"trace_id":"tr-2"}}}

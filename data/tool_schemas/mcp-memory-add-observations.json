@@ -1,0 +1,1 @@
+{"provider":"MCP Memory","tool_name":"add_observations","source_url":"https://github.com/modelcontextprotocol/servers/blob/main/src/memory/index.ts","required":["observations"],"input_schema":{"observations":{"required":true,"type":"array"}}}

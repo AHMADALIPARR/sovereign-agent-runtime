@@ -1,0 +1,1 @@
+{"provider":"MCP Memory","tool_name":"create_relations","source_url":"https://github.com/modelcontextprotocol/servers/blob/main/src/memory/index.ts","required":["relations"],"input_schema":{"relations":{"required":true,"type":"array"}}}
