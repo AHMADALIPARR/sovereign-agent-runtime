@@ -1,0 +1,15 @@
+[package]
+name = "sovereign-agent-runtime"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "sat-runtime"
+path = "src/server.rs"
+
+[[bin]]
+name = "sat-client"
+path = "src/client.rs"
+
+[profile.release]
+opt-level = 2

@@ -1,0 +1,12 @@
+{
+  "classes": {
+    "compute": "allow",
+    "crypto": "allow",
+    "graph": "allow",
+    "external_service": "deny",
+    "file_write": "deny",
+    "network": "deny",
+    "credentials": "deny",
+    "destructive": "deny"
+  }
+}
